@@ -49,7 +49,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"ResetBodyTransforms","value":null,"typeHandle":{"Identification":"Microsoft.Mesh.Physics.ResetBodyTransforms,
-      Microsoft.Mesh.Physics","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Microsoft.Mesh.Physics","$version":"A"},"$version":"A"},{"name":"Red Counter","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Blue
+      Counter","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &9058176873143322543
 MonoBehaviour:
@@ -64,7 +67,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"IsPressed","$type":"System.String"},"object":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":-652.0,"y":-379.0},"guid":"a9f583e2-c05f-4804-baf0-4ccb37113c05","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"10"},{"allowPolling":false,"_numValues":1,"coroutine":false,"defaultValues":{},"position":{"x":-346.0,"y":-407.0},"guid":"d95105a4-aac2-40bb-9230-9b8ef60561b0","$version":"A","$type":"Microsoft.Mesh.VisualScripting.StateChangedEventUnit","$id":"12"},{"defaultValues":{},"position":{"x":-66.0,"y":-363.0},"guid":"8d153f6b-4814-4355-b782-25d4619bb487","$version":"A","$type":"Unity.VisualScripting.If","$id":"14"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"ResetBodyTransforms","$type":"System.String"},"object":null},"position":{"x":-169.0,"y":-119.0},"guid":"1f464736-55e5-4d80-be76-e0480d39a342","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"16"},{"chainable":false,"parameterNames":[],"member":{"name":"ResetBodyTransformsNow","parameterTypes":[],"targetType":"Microsoft.Mesh.Physics.ResetBodyTransforms","targetTypeName":"Microsoft.Mesh.Physics.ResetBodyTransforms","$version":"A"},"defaultValues":{"target":null},"position":{"x":147.0,"y":-212.0},"guid":"a63f3dad-585e-406f-ab32-19b58ee32647","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"18"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"51b403c1-7057-4f79-bc11-15cedf893b99","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"0f7bd028-4421-41b7-9f02-a54a047c04fd","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"in_0","guid":"6658779f-a29b-4f4a-9524-34b8aab2aa8c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"out_0","destinationUnit":{"$ref":"14"},"destinationKey":"condition","guid":"d18d99a4-0c68-4e54-bc66-6e2ac1b89633","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"cdd55f77-a661-42ad-aa07-b9f9b573788e","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":446.6667,"y":65.5},"zoom":1.0,"elements":[{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"IsPressed","$type":"System.String"},"object":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":-652.0,"y":-379.0},"guid":"a9f583e2-c05f-4804-baf0-4ccb37113c05","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"10"},{"kind":"Object","defaultValues":{"name":{"$content":"Score","$type":"System.String"},"object":null},"position":{"x":704.0,"y":-214.0},"guid":"39be293e-4429-4a45-85ac-39f19b05003f","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"12"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Blue
+      Counter","$type":"System.String"},"object":null},"position":{"x":431.0,"y":-32.0},"guid":"e49f4206-4e84-4037-9788-33ac0c443366","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"14"},{"type":"System.Int32","value":{"$content":0,"$type":"System.Int32"},"defaultValues":{},"position":{"x":195.0,"y":82.0},"guid":"0f53eaf2-c019-4b17-88cc-5a3b882b8fa2","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"16"},{"kind":"Object","defaultValues":{"name":{"$content":"Score","$type":"System.String"},"object":null},"position":{"x":459.0,"y":-215.0},"guid":"6784e61d-2c74-474a-86ec-26ee545ef034","$version":"A","$type":"Unity.VisualScripting.SetVariable","$id":"18"},{"type":"System.Int32","value":{"$content":0,"$type":"System.Int32"},"defaultValues":{},"position":{"x":485.0,"y":110.0},"guid":"8c771a26-4a8d-4a55-ae3b-8b6fa1a22bb4","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"20"},{"chainable":false,"parameterNames":[],"member":{"name":"ResetBodyTransformsNow","parameterTypes":[],"targetType":"Microsoft.Mesh.Physics.ResetBodyTransforms","targetTypeName":"Microsoft.Mesh.Physics.ResetBodyTransforms","$version":"A"},"defaultValues":{"target":null},"position":{"x":147.0,"y":-212.0},"guid":"a63f3dad-585e-406f-ab32-19b58ee32647","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"22"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"ResetBodyTransforms","$type":"System.String"},"object":null},"position":{"x":-169.0,"y":-119.0},"guid":"1f464736-55e5-4d80-be76-e0480d39a342","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"26"},{"defaultValues":{},"position":{"x":-66.0,"y":-363.0},"guid":"8d153f6b-4814-4355-b782-25d4619bb487","$version":"A","$type":"Unity.VisualScripting.If","$id":"28"},{"allowPolling":false,"_numValues":1,"coroutine":false,"defaultValues":{},"position":{"x":-346.0,"y":-407.0},"guid":"d95105a4-aac2-40bb-9230-9b8ef60561b0","$version":"A","$type":"Microsoft.Mesh.VisualScripting.StateChangedEventUnit","$id":"30"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"Red
+      Counter","$type":"System.String"},"object":null},"position":{"x":171.0,"y":-68.0},"guid":"c642a11f-5cf5-407c-a28f-8563bc7e9b9b","$version":"A","$type":"Unity.VisualScripting.GetVariable","$id":"32"},{"sourceUnit":{"$ref":"30"},"sourceKey":"trigger","destinationUnit":{"$ref":"28"},"destinationKey":"enter","guid":"51b403c1-7057-4f79-bc11-15cedf893b99","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"28"},"sourceKey":"ifTrue","destinationUnit":{"$ref":"22"},"destinationKey":"enter","guid":"0f7bd028-4421-41b7-9f02-a54a047c04fd","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"exit","destinationUnit":{"$ref":"18"},"destinationKey":"assign","guid":"0b147a9f-f48f-4788-9deb-6a8c45e402b6","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"18"},"sourceKey":"assigned","destinationUnit":{"$ref":"12"},"destinationKey":"assign","guid":"615859dc-7188-405d-9ed6-c97b608a736a","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"14"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"object","guid":"ebd6315d-58bf-47bf-8a9e-bb97190edd0a","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"10"},"sourceKey":"value","destinationUnit":{"$ref":"30"},"destinationKey":"in_0","guid":"6658779f-a29b-4f4a-9524-34b8aab2aa8c","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"30"},"sourceKey":"out_0","destinationUnit":{"$ref":"28"},"destinationKey":"condition","guid":"d18d99a4-0c68-4e54-bc66-6e2ac1b89633","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"26"},"sourceKey":"value","destinationUnit":{"$ref":"22"},"destinationKey":"target","guid":"cdd55f77-a661-42ad-aa07-b9f9b573788e","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"32"},"sourceKey":"value","destinationUnit":{"$ref":"18"},"destinationKey":"object","guid":"7a75848a-5083-462a-91fd-2de08e87cfd7","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"18"},"destinationKey":"input","guid":"158ca0ef-875d-47bb-b8a0-e01598fb99ca","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"20"},"sourceKey":"output","destinationUnit":{"$ref":"12"},"destinationKey":"input","guid":"16321380-fd0e-4da1-844e-aeb034010716","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}}'
     _objectReferences:
     - {fileID: 7359799532451053410}
 --- !u!1 &3726871126764308210
@@ -224,6 +229,9 @@ MonoBehaviour:
   m_Script: {fileID: 761857578, guid: 4215dfc0be7da4a47a6346b7585b79fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  version: 1
+  InteractionProximityRadius: 30
+  interactionProximityRadius: 30
   highlightSettings:
     Hovered: 1
     Selected: 1
@@ -246,6 +254,10 @@ MonoBehaviour:
     EnableIkTracking: 0
     ConstrainArmWithinSphere: 1
   equippableSettings:
+    version: 1
+    ThrowVelocity: 1
+    MinThrowVelocity: 1
+    ActivateType: 2
     InteractionOffset:
       position: {x: 0, y: 0, z: 0}
       rotation: {x: 0, y: 0, z: 0}
@@ -256,9 +268,10 @@ MonoBehaviour:
       HandPoseShape: 4
       HandPoseSize: 1
     Throwable: 0
-    MinThrowVelocity: 1
-    ThrowVelocity: 1
+    MaxThrowVelocity2D: 1
     ThrowDirectionOffset: {x: 0, y: 0, z: 0}
+    MinThrowVelocityVR: 1
+    MaxThrowVelocityVR: 1
     ArmExtensionOnAim: 1
     AimHandPose:
       HandPoseShape: 4
@@ -322,7 +335,6 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    ActivateType: 2
     ActivateTargetPoses:
     - Position: {x: 0.25, y: 0.25, z: 0.25}
       Rotation: {x: 0, y: 0, z: 0}
@@ -351,6 +363,11 @@ MonoBehaviour:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
+    activateType: 2
+    ShowAimArc: 1
+    AimArcOrigin: {fileID: 0}
+    OverrideAimArcColor: 0
+    AimArcColor: {r: 1, g: 1, b: 1, a: 1}
   equippable: 0
   manipulable: 0
   manipulationSettings:
@@ -385,7 +402,6 @@ MonoBehaviour:
       enabled: 0
       springStrength: 1
       dampingFactor: 0.2
-  InteractionProximityRadius: 30
 --- !u!95 &2997456311997865771
 Animator:
   serializedVersion: 5
@@ -698,7 +714,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  - {fileID: 2100000, guid: 349005d660ea665469fe1813fef74bbc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -744,8 +760,8 @@ MonoBehaviour:
 
     Positions'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 671dbf751a1b0604fb9b5c4787896a57, type: 2}
+  m_sharedMaterial: {fileID: 2100000, guid: 349005d660ea665469fe1813fef74bbc, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

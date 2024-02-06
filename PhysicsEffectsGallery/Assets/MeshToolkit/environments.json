@@ -1,0 +1,21 @@
+{
+  "uploadEntries": [
+    {
+      "assetId": "90568c09-54b3-44a8-bf5d-929e805fb67c",
+      "name": "Air Hockey",
+      "isEnabled": true,
+      "uploadItems": [
+        {
+          "prefabFilepath": "Assets/Scenes/AirHockey.unity",
+          "forAndroid": true,
+          "forWin": true
+        }
+      ],
+      "perPlatformAssets": false,
+      "thumbnailImagesFolder": "Assets\\MeshToolkit\\Thumbnails\\90568c09",
+      "includeThumbnail": false,
+      "thumbnailGenerationBehavior": "Autogenerate",
+      "metaverseId": "229fdef5-3dc3-423e-a318-a205c070cccf"
+    }
+  ]
+}
